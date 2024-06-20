@@ -20,7 +20,7 @@ export default function ServerInfo() {
           </div>
           <div className='w-full md:h-52'>
             <img
-              src='/survival-minigames-image.jpg'
+              src='/semi-classic.png'
               className='rounded-tr-3xl rounded-bl-3xl w-full h-auto md:h-52 object-cover mt-4'
             />
           </div>

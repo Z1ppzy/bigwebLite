@@ -3,19 +3,14 @@ import { FaArrowCircleRight } from 'react-icons/fa';
 export default function VotingList() {
   const votingSites = [
     {
-      name: 'MinecraftZ',
+      name: 'MinecraftRating',
       url: 'https://minecraftrating.ru/server/heavenlyweiner/',
-      description: 'abobasososa',
+      description: 'На данном сайте вы можете голосовать ежедневно и помочь серверу по его продвижению!',
     },
     {
-      name: 'MinecraftS',
-      url: 'https://minecraftrating.ru/server/heavenlyweiner/',
-      description: 'abobasososa',
-    },
-    {
-      name: 'MinecraftB',
-      url: 'https://minecraftrating.ru/server/heavenlyweiner/',
-      description: 'abobasososa',
+      name: 'HotMC',
+      url: 'https://hotmc.ru/vote-187743',
+      description: 'На данном сайте вы можете голосовать ежедневно и помочь серверу по его продвижению!',
     },
   ];
   return (
@@ -26,12 +21,12 @@ export default function VotingList() {
             key={index}
             className='p-4 items-center flex flex-col justify-between text-center border rounded-lg shadow-md w-72 h-72 py-10'
           >
-            <p rel='noopener noreferrer' className='text-blue-500'>
+            <p rel='noopener noreferrer' className='text-purple-600'>
               {site.name}
             </p>
             <p>{site.description}</p>
             <a href={site.url} target='_blank'>
-              <FaArrowCircleRight className='text-4xl text-blue-500 hover:scale-110 duration-500' />
+              <FaArrowCircleRight className='text-4xl text-purple-600 hover:scale-110 duration-500' />
             </a>
           </div>
         ))}
