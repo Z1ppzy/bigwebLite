@@ -13,7 +13,7 @@ export default function Header() {
           <TypeIt>HeavenlyWeiner</TypeIt>
         </Link>
       </div>
-      <div className='flex justify-center gap-10 font-medium text-sm mt-5 md:mt-0 md:text-xl lg:text-2xl text-center'>
+      <div className='flex justify-center gap-10 font-medium text-lg md:mt-0 md:text-xl lg:text-2xl text-center'>
         <Link to='/rules' className='duration-500 hover:text-purple-600'>
           Правила
         </Link>
